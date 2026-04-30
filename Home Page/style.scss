@@ -16,7 +16,7 @@ header {
     justify-content: center;
     height: 10.6vh;
     nav {
-        width: 85vw;
+        width: 83.2vw;
         display: flex;
         flex-direction: row;
         color: white;
@@ -69,17 +69,126 @@ header {
 }
 .sect2 {
     width: 100vw;
-    height: 90vh;
+    height: 85vh;
     background-color: #1A1A1A;
     display: flex;
     color: white;
     align-items: center;
     justify-content: center;
+    background-image: url(./assets/Hero\ Section.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
     .sect2_all {
+        gap: 6vh;
         width: 85vw;
-        height: 80%;
+        height: 75%;
         display: flex;
         flex-direction: column;
         align-items: center;
+        .sect2_block1 {
+            font-size: 4.25rem;
+            font-family: "Barlow", sans-serif;
+            font-weight: 600;
+            width: 50%;
+            text-align: center;
+        }
+        .sect2_block2_all {
+            width: 45vw;
+            height: 10.4vh;
+            background-color: rgba(36, 36, 36, 0.2);
+            backdrop-filter: blur(12px);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 16px;
+            border: 1px rgba(38, 38, 38, 1) solid;
+            .sect2_block2_text {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                gap: 0.3vw;
+                .sect2_block2_text1 {
+                    color: #98989A;
+                    font-size: 1.375rem;
+                    font-family: "Barlow", sans-serif;
+                }
+                .sect2_block2_text2 {
+                    font-size: 1.375rem;
+                    font-family: "Barlow", sans-serif;
+                    background-color: rgba(38, 38, 38, 1);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 8px;
+                    width: 6vw;
+                    height: 5vh;
+                }
+                .sect2_block2_text3 {
+                    font-size: 1.375rem;
+                    font-family: "Barlow", sans-serif;
+                    background-color: rgba(38, 38, 38, 1);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 8px;
+                    width: 11vw;
+                    height: 5vh;
+                }
+                .sect2_block2_text4 {
+                    font-size: 1.375rem;
+                    font-family: "Barlow", sans-serif;
+                    background-color: rgba(38, 38, 38, 1);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 8px;
+                    width: 11vw;
+                    height: 5vh;
+                }
+                .sect2_block2_text5 {
+                    font-size: 1.375rem;
+                    font-family: "Barlow", sans-serif;
+                    background-color: rgba(38, 38, 38, 1);
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    border-radius: 8px;
+                    width: 7vw;
+                    height: 5vh;
+                }
+            }
+        }
+        .sect2_block3 {
+            display: flex;
+            flex-direction: row;
+            gap: 0.7vw;
+            .sect2_block3_button1 {
+                font-size: 1.13rem;
+                font-weight: 500;
+                font-family: "Barlow", sans-serif;
+                font-style: normal;
+                width: 7.5vw;
+                height: 6.25vh;
+                border-radius: 8px;
+                color: #ffffff;
+                border: none;
+                cursor: pointer;
+                background-color: rgba(36, 36, 36, 0.2);
+                backdrop-filter: blur(12px);
+                border: 1px rgba(38, 38, 38, 1) solid;
+            }
+            .sect2_block3_button2 {
+                font-size: 1.13rem;
+                font-weight: 500;
+                font-family: "Barlow", sans-serif;
+                font-style: normal;
+                width: 7.5vw;
+                height: 6.25vh;
+                border-radius: 8px;
+                background-color: #9EFF00;
+                border: none;
+                cursor: pointer;
+            }
+        }
     }
 }
