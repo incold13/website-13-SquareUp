@@ -191,4 +191,38 @@ header nav .header_block3 button {
   background-color: #9EFF00;
   border: none;
   cursor: pointer;
+}
+
+.sect3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #1A1A1A;
+  height: 15vh;
+}
+.sect3 .sect3_block_all {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-family: "Barlow", sans-serif;
+  color: #FDFFFA;
+  font-weight: 500;
+}
+.sect3 .sect3_block_all .sect3_all {
+  background-color: #1A1A1A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100px;
+  border: 1px rgb(38, 38, 38) solid;
+  position: absolute;
+  bottom: 17px;
+  height: 6.6vh;
+  width: 15vw;
+}
+.sect3 .sect3_block_all .sect3_block2 {
+  display: flex;
+  gap: 1.5vw;
 }/*# sourceMappingURL=style.css.map */
