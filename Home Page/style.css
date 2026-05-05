@@ -16,7 +16,7 @@ header {
   height: 10.6vh;
 }
 header nav {
-  width: 83.2vw;
+  width: 78.2vw;
   display: flex;
   flex-direction: row;
   color: white;
@@ -69,7 +69,7 @@ header nav .header_block3 button {
 
 .sect2 {
   width: 100vw;
-  height: 85vh;
+  height: 79vh;
   background-color: #1A1A1A;
   display: flex;
   color: white;
@@ -218,11 +218,318 @@ header nav .header_block3 button {
   border-radius: 100px;
   border: 1px rgb(38, 38, 38) solid;
   position: absolute;
-  bottom: 17px;
+  bottom: 80px;
   height: 6.6vh;
   width: 15vw;
 }
 .sect3 .sect3_block_all .sect3_block2 {
   display: flex;
   gap: 1.5vw;
+}
+
+.sect5 {
+  width: 100vw;
+  height: 89vh;
+  background-color: #1A1A1A;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.sect5 .sect5_all {
+  width: 78.2vw;
+  height: 33vh;
+  background-image: url(./assets/sect4.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.sect5 .sect5_all .sect5_block1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.4vh;
+}
+.sect5 .sect5_all .sect5_block1 .sect5_block1_p1 {
+  font-family: "Barlow", sans-serif;
+  font-size: 3rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+.sect5 .sect5_all .sect5_block1 .sect5_block1_p2 {
+  font-family: "Barlow", sans-serif;
+  font-size: 1.125rem;
+  color: #E6E6E6;
+}
+.sect5 .sect5_block2 {
+  width: 100vw;
+  height: 56vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.sect5 .sect5_block2 .sect5_block2_wh {
+  display: flex;
+  flex-direction: row;
+  width: 78.2vw;
+}
+.sect5 .sect5_block2 .sect5_block2_wh .sect5_card {
+  width: 26vw;
+  height: 56vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  color: white;
+  border: 1px solid #262626;
+}
+.sect5 .sect5_block2 .sect5_block2_wh .sect5_card .sect5_card_wh {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  width: 80%;
+  height: 85%;
+}
+.sect5 .sect5_block2 .sect5_block2_wh .sect5_card .sect5_card_wh .sec5_card_mid {
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+  height: 25vh;
+}
+.sect5 .sect5_block2 .sect5_block2_wh .sect5_card .sect5_card_wh .sec5_card_mid .sect5_p1 {
+  font-family: "Barlow", sans-serif;
+  font-size: 1.875rem;
+  font-weight: 600;
+}
+.sect5 .sect5_block2 .sect5_block2_wh .sect5_card .sect5_card_wh .sec5_card_mid .sect5_p2 {
+  font-family: "Barlow", sans-serif;
+  font-size: 1.125rem;
+  line-height: 24px;
+  color: #E6E6E6;
+}
+.sect5 .sect5_block2 .sect5_block2_wh .sect5_card .sect5_card_wh .sect5_button {
+  font-family: "Barlow", sans-serif;
+  font-size: 1.125rem;
+  width: 100%;
+  height: 6vh;
+  color: #ffffff;
+  border: 0;
+  background-color: #262626;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.sect6 {
+  width: 100vw;
+  height: 107vh;
+  background-color: #1A1A1A;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.sect6 .sect6_all {
+  width: 78.2vw;
+  height: 33vh;
+  background-image: url(./assets/sect6.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.sect6 .sect6_all .sect6_block1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1.4vh;
+}
+.sect6 .sect6_all .sect6_block1 .sect6_block1_p1 {
+  font-family: "Barlow", sans-serif;
+  font-size: 3rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+.sect6 .sect6_all .sect6_block1 .sect6_block1_p2 {
+  font-family: "Barlow", sans-serif;
+  font-size: 1.125rem;
+  color: #E6E6E6;
+}
+.sect6 .sect6_block2 {
+  width: 100vw;
+  height: 74vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.sect6 .sect6_block2 .sect6_block2_wh {
+  display: flex;
+  flex-direction: row;
+  width: 78.2vw;
+  flex-wrap: wrap;
+}
+.sect6 .sect6_block2 .sect6_block2_wh .sect6_card {
+  width: 39vw;
+  height: 37vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+  color: white;
+  border: 1px solid #262626;
+}
+.sect6 .sect6_block2 .sect6_block2_wh .sect6_card .sect6_card_wh {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  width: 85%;
+  height: 55%;
+}
+.sect6 .sect6_block2 .sect6_block2_wh .sect6_card .sect6_card_wh .sect6_card_gap1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1vw;
+}
+.sect6 .sect6_block2 .sect6_block2_wh .sect6_card .sect6_card_wh .sect6_card_gap1 .sect6_p1 {
+  font-family: "Barlow", sans-serif;
+  font-size: 1.875rem;
+  font-weight: 600;
+}
+.sect6 .sect6_block2 .sect6_block2_wh .sect6_card .sect6_card_wh .sect6_p2 {
+  font-family: "Barlow", sans-serif;
+  font-size: 1.125rem;
+  line-height: 150%;
+  color: #E6E6E6;
+  width: 83%;
+}
+
+.testimonials_sect {
+  width: 100vw;
+  background-color: #1A1A1A;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.testimonials_sect .testimonials_header {
+  width: 78.2vw;
+  height: 33vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 3vh;
+  background-image: url(./assets/sect6.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.testimonials_sect .testimonials_header .title {
+  font-family: "Barlow", sans-serif;
+  color: #ffffff;
+  font-size: 3rem;
+  font-weight: 600;
+}
+.testimonials_sect .testimonials_header .subtitle {
+  color: #E6E6E6;
+  font-size: 1.125rem;
+  line-height: 150%;
+  width: 58%;
+}
+.testimonials_sect .testimonials_grid {
+  width: 78.2vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #2a2a2a;
+  gap: 1px;
+  border: 1px solid #2a2a2a;
+}
+.testimonials_sect .testimonials_grid .testi_card {
+  background-color: #181818;
+  height: 45vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.testimonials_sect .testimonials_grid .testi_card .card_inner {
+  width: 85%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.testimonials_sect .testimonials_grid .testi_card .card_inner .text_block {
+  display: flex;
+  flex-direction: column;
+  gap: 2.4vh;
+}
+.testimonials_sect .testimonials_grid .testi_card .card_inner .text_block .testi_title {
+  font-family: "Barlow", sans-serif;
+  color: #D8FF99;
+  font-size: 1.75rem;
+  font-weight: 500;
+  line-height: 150%;
+}
+.testimonials_sect .testimonials_grid .testi_card .card_inner .text_block .testi_text {
+  font-family: "Barlow", sans-serif;
+  color: #E6E6E6;
+  font-size: 1.125rem;
+  line-height: 150%;
+  width: 92%;
+}
+.testimonials_sect .testimonials_grid .testi_card .card_inner .testi_footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 15vh;
+}
+.testimonials_sect .testimonials_grid .testi_card .card_inner .testi_footer .user_info {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+}
+.testimonials_sect .testimonials_grid .testi_card .card_inner .testi_footer .user_info img {
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.testimonials_sect .testimonials_grid .testi_card .card_inner .testi_footer .user_info .user_details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5vh;
+}
+.testimonials_sect .testimonials_grid .testi_card .card_inner .testi_footer .user_info .user_details .user_name {
+  font-family: "Barlow", sans-serif;
+  color: #ffffff;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 150%;
+}
+.testimonials_sect .testimonials_grid .testi_card .card_inner .testi_footer .user_info .user_details .user_role {
+  font-family: "Barlow", sans-serif;
+  font-size: 1.125rem;
+  color: #E6E6E6;
+}
+.testimonials_sect .testimonials_grid .testi_card .card_inner .testi_footer .open_btn {
+  background-color: #262626;
+  color: #ffffff;
+  border: 1px solid #262626;
+  border-radius: 8px;
+  width: 7.29vw;
+  height: 6.2vh;
+  font-size: 1.125rem;
+  font-weight: 500;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */
