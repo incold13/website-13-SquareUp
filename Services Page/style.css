@@ -1,0 +1,388 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+header {
+  width: 100vw;
+  background-color: #1A1A1A;
+  border: 1px solid #262626;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10.6vh;
+}
+header nav {
+  width: 78.2vw;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  justify-content: space-between;
+  align-items: center;
+}
+header nav .header_block1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.53vw;
+}
+header nav .header_block1 p {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #ffffff;
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+}
+header nav .header_block2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2.2vw;
+}
+header nav .header_block2 p {
+  font-size: 1.13rem;
+  font-weight: 500;
+  color: #E6E6E6;
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+}
+header nav .header_block2 a {
+  text-decoration: none;
+}
+header nav .header_block3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+header nav .header_block3 button {
+  font-size: 1.13rem;
+  font-weight: 500;
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+  width: 7vw;
+  height: 6.25vh;
+  border-radius: 8px;
+  background-color: #9EFF00;
+  border: none;
+  cursor: pointer;
+}
+
+.sect2 {
+  width: 100vw;
+  height: auto;
+  min-height: 100vh;
+  background-color: #1A1A1A;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.sect2 .services_page {
+  font-family: "Barlow", sans-serif;
+  background-color: #1a1a1a;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5vh;
+  width: 100%;
+}
+.sect2 .services_page .services_banner {
+  width: 78.2vw;
+  height: 33vh;
+  background-image: url(./assets/sect2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2vh;
+  border-bottom: 1px solid #2a2a2a;
+}
+.sect2 .services_page .services_banner .banner_title {
+  color: #ffffff;
+  font-size: 3rem;
+  font-weight: 600;
+}
+.sect2 .services_page .services_banner .banner_subtitle {
+  color: #a0a0a0;
+  font-size: 1rem;
+}
+.sect2 .services_page #all_services_container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.sect2 .services_page #all_services_container .service_section_wrapper {
+  width: 78.2vw;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #262626;
+  align-items: center;
+  background-color: #1a1a1a;
+}
+.sect2 .services_page #all_services_container .service_section_wrapper .service_section {
+  width: 73vw;
+  display: flex;
+  flex-direction: column;
+}
+.sect2 .services_page #all_services_container .service_section_wrapper .service_section .section_header {
+  height: 35vh;
+  display: grid;
+  justify-content: center;
+  align-items: end;
+  grid-template-rows: 165px 60px 90px;
+}
+.sect2 .services_page #all_services_container .service_section_wrapper .service_section .section_header .title {
+  color: #ffffff;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.sect2 .services_page #all_services_container .service_section_wrapper .service_section .section_header .description {
+  color: #a0a0a0;
+  font-size: 1rem;
+  line-height: 1.5;
+  width: 73%;
+}
+.sect2 .services_page #all_services_container .service_section_wrapper .service_section .section_header .badge {
+  background-color: #262626;
+  height: 4vh;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 0 1vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+}
+.sect2 .services_page #all_services_container .service_section_wrapper .service_section .section_header .badge span {
+  color: #ffffff;
+  font-size: 0.9rem;
+}
+.sect2 .services_page #all_services_container .service_section_wrapper .service_section .categories_container {
+  display: flex;
+  flex-direction: column;
+}
+.sect2 .services_page #all_services_container .service_section_wrapper .service_section .categories_container .category_row {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid #2a2a2a;
+}
+.sect2 .services_page #all_services_container .service_section_wrapper .service_section .categories_container .category_row .category_title {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  color: #98989A;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.sect2 .services_page #all_services_container .service_section_wrapper .service_section .categories_container .category_row .cards_grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1px;
+  background-color: #2a2a2a;
+  border: 1px solid #2a2a2a;
+}
+.sect2 .services_page #all_services_container .service_section_wrapper .service_section .categories_container .category_row .cards_grid .service_card {
+  background-color: #1A1A1A;
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4vh;
+  align-items: center;
+}
+.sect2 .services_page #all_services_container .service_section_wrapper .service_section .categories_container .category_row .cards_grid .service_card .icon_box {
+  width: 3vw;
+  height: 3vw;
+  border: 1px solid #333333;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #c4f069;
+  font-size: 1.2rem;
+  align-self: flex-start;
+  margin-left: 10%;
+  position: relative;
+}
+.sect2 .services_page #all_services_container .service_section_wrapper .service_section .categories_container .category_row .cards_grid .service_card .icon_box .custom_image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 6px;
+  background-color: #1f1f1f;
+}
+.sect2 .services_page #all_services_container .service_section_wrapper .service_section .categories_container .category_row .cards_grid .service_card .card_text {
+  width: 72%;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.4;
+  align-self: flex-start;
+  margin-left: 10%;
+}
+
+.footer1 {
+  width: 100vw;
+  height: 50vh;
+  background-color: #1A1A1A;
+}
+.footer1 .footer1_all {
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer1 .footer1_all .footer1_wh {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 78.2vw;
+  height: 50vh;
+  background-size: cover;
+  background-color: #1A1A1A;
+  background-image: url(./assets/Container.png);
+}
+.footer1 .footer1_all .footer1_wh img {
+  height: 15vh;
+}
+.footer1 .footer1_all .footer1_wh .footer1_text_p1 {
+  font-family: "Barlow", sans-serif;
+  font-weight: 600;
+  font-size: 2.375rem;
+  color: #ffffff;
+  height: 6vh;
+}
+.footer1 .footer1_all .footer1_wh .footer1_text_p2 {
+  font-family: "Barlow", sans-serif;
+  font-weight: 400;
+  font-size: 1.125rem;
+  color: #ffffff;
+  width: 58%;
+  text-align: center;
+  height: 9vh;
+}
+.footer1 .footer1_all .footer1_wh button {
+  font-size: 1.13rem;
+  font-weight: 500;
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+  width: 8.3vw;
+  height: 6.25vh;
+  border-radius: 8px;
+  background-color: #9EFF00;
+  border: none;
+  cursor: pointer;
+}
+
+.footer_sect {
+  font-family: "Barlow", sans-serif;
+  width: 100vw;
+  height: 35vh;
+  background-color: #1a1a1a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer_sect .footer_content {
+  width: 78.2vw;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer_sect .footer_content .footer_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer_sect .footer_content .footer_top .header_block1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.53vw;
+}
+.footer_sect .footer_content .footer_top .header_block1 p {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #ffffff;
+  font-family: "Barlow", sans-serif;
+  font-style: normal;
+}
+.footer_sect .footer_content .footer_top .nav_links {
+  display: flex;
+  gap: 2vw;
+}
+.footer_sect .footer_content .footer_top .nav_links a {
+  color: #E6E6E6;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 1.125rem;
+}
+.footer_sect .footer_content .footer_top .nav_links a:hover {
+  color: #ffffff;
+}
+.footer_sect .footer_content .footer_top .social_block {
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+  background-color: #222222;
+  height: 8vh;
+  border-radius: 12px;
+  width: 20vw;
+  justify-content: center;
+}
+.footer_sect .footer_content .footer_top .social_block p {
+  color: #E6E6E6;
+  font-weight: 500;
+  font-size: 1.125rem;
+}
+.footer_sect .footer_content .footer_top .social_block .social_icons {
+  display: flex;
+  gap: 0.5vw;
+}
+.footer_sect .footer_content .footer_top .social_block .social_icons .icon {
+  width: 2vw;
+  height: 2vw;
+  background-color: #1a1a1a;
+  color: #c4f069;
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+.footer_sect .footer_content .footer_bottom {
+  height: 10vh;
+  border-top: 1px solid #333333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer_sect .footer_content .footer_bottom .contact_info {
+  display: flex;
+  gap: 2vw;
+}
+.footer_sect .footer_content .footer_bottom .contact_info .contact_item {
+  display: flex;
+  align-items: center;
+  gap: 0.5vw;
+  height: 4vh;
+  color: #a0a0a0;
+  font-size: 0.9rem;
+  border-bottom: 1px solid #262626;
+}
+.footer_sect .footer_content .footer_bottom .contact_info .contact_item .icon {
+  color: #c4f069;
+}
+.footer_sect .footer_content .footer_bottom .copyright {
+  color: #a0a0a0;
+  font-size: 0.9rem;
+}/*# sourceMappingURL=style.css.map */
